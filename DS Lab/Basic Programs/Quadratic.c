@@ -6,11 +6,11 @@
 
 void getData(float *a, float *b, float *c) {
 	printf("\n\tEnter 'a': ");
-	scanf("%f", a);
+	scanf("%f", &a);
 	printf("\tEnter 'b': ");
-	scanf("%f", b);
+	scanf("%f", &b);
 	printf("\tEnter 'c': ");
-	scanf("%f", c);
+	scanf("%f", &c);
 	printf("\n\n");
 }
 
